@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <link href = "https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet"/>
+       <link href ="./index.css" rel = "stylesheet"/>
+       <link rel="stylesheet" href="./normalize.css" />
+       <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+       <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+       <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+       <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+       <link rel="manifest" href="./assets/favicon/site.webmanifest">
+       <title>barbershop</title>
+   </head>
+   <body>
+       <header class="main-header">
+           <nav>
+               <ul class = "nav-items">
+                   <li><a class="nav-items-link" href="index.html">ГЛАВНАЯ</a></li>
+                   <li><a class="nav-items-link" href="./info.html">НАШИ РАБОТЫ</a></li>
+                   <li><a class="nav-items-link" href="">ЗАПИСАТЬСЯ</a></li>
+                   <li><a class="nav-items-link" href="">КОНТАКТЫ</a></li>
+                   <li><a class="nav-items-link" href="">АДРЕС</a></li>
+                   <li><a class="nav-items-link" href="">ВХОД</a></li>
+               </ul>
+           </nav>
+        </header>
+        <main class="main-wrapper">
+            <div class = "image-container">
+                <img  width="100%"  src="./assets/img/all-background.png" alt="picture" />
+            </div>
+            <section class="request">
+                <h1 class="request-title">ЗАПИСЬ НА СТРИЖКУ</h1>
+                <button class="button-to-main"type="button"><b>НА ГЛАВНУЮ</b></button>
+                <form class="info-form">
+                    <div class="about">
+                        <div class ="about-name">
+                            <input type="text" name="name" placeholder="Имя" />
+                            <input type="text" name="surname" placeholder="Фамилия" />
+                            <input type="text" name="lastname" placeholder="Отчество" />
+                        </div>
+                        <div class="about-contacts">
+                            <input type="text" name="phone" placeholder="Контактный телефон" />
+                            <input type="email" name="mail" placeholder="Контактный e-mail" />
+                        </div>
+                        <textarea
+                                name="description"
+                                cols="50"
+                                rows="10">
+                        </textarea>
+                    </div>
+                    <div class="choice">
+                        <h3 class="choice-title">ВЫБЕРИТЕ МОДЕЛЬ БОРОДЫ:</h3>
+                        <div class="choice-items">
+                            <label>
+                                <input type="radio" name="model of work" value="адмиал">
+                                адмиал
+                            </label>
+                            <label>
+                                <input type="radio" name="model of work" value="лесоруб">
+                                лесоруб
+                            </label>
+                            <label>
+                                <input type="radio" name="model of work" value="полярник">
+                                полярник
+                            </label>
+                            <label>
+                                <input type="radio" name="model of work" value="боярин">
+                                боярин
+                            </label>
+                            <label>
+                                <input type="radio" name="model of work" value="мудрец">
+                                мудрец
+                            </label>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <h3 class="service-title"> ДОПОЛНИТЕЛЬНЫЕ УСЛУГИ:</h3>
+                        <div class="service-items">
+                            <label>
+                                <input type="checkbox" >
+                                Подкрасить бороду
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Убрать седину
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Подровнять виски
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Причесать бороду
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Накрутить усы
+                            </label>
+                            <label>
+                                <input type="checkbox" >
+                                Отполировать лысину
+                            </label>
+                        </div>
+                        <button class="submit-btn" type="submit">ОТПРАВИТЬ ЗАЯАВКУ</button>
+                    </div>
+                </form>
+            </section>
+        </main>
+       <footer class="footer-wrapper" >
+           <div class="footer-wrapper-items">
+               <div class="footer-wrapper-item">
+                   <p><b>Барбершоп «Бородинский</b><br> г. Санкт-Петербург, ул. Большая Конюшенная 19/8</p>
+                   <p class="info-phone">Тел.:+7(812)555-66-66</p>
+               </div>
+
+               <div class="footer-wrapper-item">
+                   <p><b>Давайте дружить!</b></p>
+                   <div class="social-links">
+                       <a class="social-links-item"  href ="#" ><i class="fab fa-twitter"></i></a>
+                       <a class="social-links-item" href = https://www.facebook.com/arevik.iskandaryan.7/ alt="facebook"><i class="fab fa-facebook"></i></a>
+                       <a class= "social-links-item" href = "#" ><i class="fab fa-instagram"></i></a>
+                   </div>
+               </div>
+
+               <div class="footer-wrapper-item">
+                   <p><b>Разработано:</b></p>
+                   <a class="button" href="#" alt="Arev"><b>Арев</b></a>
+               </div>
+
+           </div>
+
+
+
+       </footer>
+
+
+
+
+   </body>
+</html>
