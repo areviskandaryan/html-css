@@ -261,31 +261,23 @@ h1{
 }
 
 .work-main {
-
-
-
-    margin-left:250px;
-    margin-right: 268px;
+    width:80%;
+    margin: 0px auto;
     display: flex;
     flex-wrap: nowrap;
     border:solid 1px #e5ddd5;
 }
 
 .works-items {
-
-
-
-    margin:20px 250px 60px;
+    width: 80%;
+    margin: 53px auto;
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
 
 .work-item{
-
-    width:260px;
-
-    margin-right: 20px;
+    width:30%;
     border:solid 1px #e5ddd5;
 }
 
@@ -299,18 +291,19 @@ h1{
 /*info-html-table*/
 
 .price-title{
-    margin-left:250px;
-    color:white;
+    width: 80%;
+    margin: 0px auto 27px;
+    color: white;
 }
 
 table{
     border-collapse: collapse;
-    color:white;
-    width:60%;
+    color: white;
+    width: 60%;
     height: 250px;
     text-align: center;
     font-size: 17px;
-    margin:0px;
+    margin: 0px;
 }
 
 table td{
@@ -318,10 +311,11 @@ table td{
 }
 
 .price-discount-wrapper {
-    margin:10px 280px 60px 250px;
     display: flex;
+    width: 80%;
+    margin: 0 auto;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .discount{
