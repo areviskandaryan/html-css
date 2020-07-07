@@ -34,16 +34,18 @@ body{
 
 
 .image-container {
-    height:420px;
-    overflow: hidden;
+    width: 100%;
+    height: 400px;
+    background-image: url('./assets/img/all-background.png');
+    background-size: cover;
 }
 
 .statistics{
+    position:relative;
+    top:-150px;
     width:80%;
     height: 300px;
     margin:0 auto;
-    position: relative;
-    top:-151px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -97,9 +99,7 @@ body{
 }
 
 .advantage-wrapper{
-    position:relative;
-    top:-55px;
-    height: 200px;
+    height: 180px;
     width:80%;
     margin:0 auto;
     display: flex;
@@ -126,14 +126,12 @@ body{
 }
 
 .news{
-    position:relative;
-    top: 100px;
-    margin:0px;
+    margin-top:100px;
     background-color: white;
     color:black;
     border: 2px solid #e2dcd4;
     width:100%;
-    height:250px;
+    height:350px;
 
 
 }
@@ -194,13 +192,9 @@ span{
     color:black;
 }
 
-
 /*footer*/
-
 .footer-wrapper{
-    position: relative;
-    top:100px;
-    margin:0px;
+    margin-top:80px;
     margin-bottom: 40px;
     width:100%;
     text-align: center;
@@ -244,18 +238,15 @@ span{
     text-align: center;
 }
 
-
-
 /*info.html*/
 
 .portfolio{
-    position:relative;
-    top:-22px;
-    margin:0px;
     background-color: #f7f5f2;
 }
 
 h1{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
     text-align:center;
     padding: 22px 5px;
 }
@@ -284,11 +275,9 @@ h1{
 .person-opinion {
     text-align: left;
     padding-left:20px;
-    padding-right: 2px;
+    padding-right: 5px;
     margin-bottom:5px;
 }
-
-/*info-html-table*/
 
 .price-title{
     width: 80%;
@@ -352,7 +341,7 @@ table td{
     width:100px;
     height:40px;
     border:solid 1px #e5ddd5;
-    margin-top:40px;
+    margin-top:20px;
 }
 .info-form{
     width:100%;
